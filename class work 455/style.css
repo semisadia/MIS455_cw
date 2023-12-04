@@ -1,0 +1,72 @@
+
+body{
+    
+}
+.outer{
+    background-image: url('images/food2.jpg');
+    padding: 30px;
+    height: 900px;
+
+}
+
+.heading{
+    color: white;
+    text-shadow: 1px 1px gray;
+    font-size: 60px;
+}
+.inner{
+   
+   display: flex;
+   justify-content: left;
+   margin-top: 500px;
+   margin-left: 100px;
+}
+.field{
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+
+input:focus{
+    color: rgb(16, 9, 36);
+    border: 2px solid rgb(179, 168, 218);
+}
+.searchbtn {
+    background-color: rgb(46, 155, 52);
+    border-radius: 10px;
+    border: 1px solid rgb(46, 155, 52);
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 300px;
+    
+}
+
+Button:hover {
+    background-color: #c42a1c;
+}
+Button:active {
+    position: relative;
+    top: 1px;
+}
+.card{
+    margin: 40px;
+    padding: 20px;
+    height: 600px !important;
+    width: 400px !important;
+    overflow-y: scroll;
+}
+#container{
+    justify-self: center;
+    padding: 40px;
+    background-color: bisque;
+    min-height: 400px;
+}
